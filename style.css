@@ -16,17 +16,17 @@
 
         .display {
             width: 35%;
-            height: 95%;
+            height: 98%;
             background: rgb(26, 26, 26);
             position: absolute;
             overflow: scroll;
             scroll-snap-type: y mandatory;
             border-radius: 2vmin;
-            margin: 3vmin;
+            margin: 1vmin;
         }
 
         .display>.containFrame {
-            width: 95%;
+            width: 98%;
             height: 100%;
             margin: 1vmin;
             position: relative;
@@ -41,7 +41,7 @@
         }
 
         .display>.containFrame>iframe {
-            width: 90%;
+            width: 98%;
             height: 95%;
             scroll-snap-type: both mandatory;
             border-radius: 2vmin;
